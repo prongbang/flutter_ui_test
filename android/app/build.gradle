@@ -59,8 +59,10 @@ android {
         }
     }
 
+    flavorDimensions "environment"
     productFlavors {
         automate {
+            dimension "environment"
             applicationIdSuffix ".automate"
         }
     }
