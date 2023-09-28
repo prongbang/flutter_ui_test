@@ -1,0 +1,12 @@
+device:
+  android:
+    flavor: "automate"
+    device_id: "emulator-5554"
+    device_name: "Android_13"
+  ios:
+    flavor: "automate"
+    device_name: "iPhone 14 Pro Max"
+report:
+  name: "report/ui-test-{}.html"
+tests:
+  - "main_test.dart"

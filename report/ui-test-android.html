@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Runner - Report</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet">
+    <style>
+                    html, body { font-family: 'Roboto', sans-serif; } body { margin: 16px 64px; } th { background-color: #f7f7f7; } a { color: white; } th, td { padding: 0.5rem; } .success { color: #008000; } .failed { color: #d40501; } .medium { font-weight: 500; } .hide { display: none; } .show { display: block; } table { table-layout: fixed; width: 100%; display: table; } pre { overflow: scroll; } h4 { padding: 4px 8px; } .coverage { font-size: small; font-weight: normal; } tr.passed { background: #dfd; } tr.skipped { background: #eee; } tr.failed { background: #fdd; } .center { margin-left: auto; margin-right: auto; } .badge { background: #888; color: white; border-radius: 4px; padding: 2px 8px; float: right; } .passed .badge { background: #5c5; ; } .skipped .badge {} .failed .badge { background-color: #d66; } .expando { padding: 8px; display: none; } .content { padding: 16px 0; border-bottom: thin #eeeeee solid; color: #444; white-space: pre; } .duration { font-size: x-small; } div:target .expando { display: block }
+
+    </style>
+</head>
+<body>
+<h1>UI Test Report</h1>
+<p>Generated: 2023-09-28 23:31:04</p>
+
+<p>Tests: 1</p>
+<p>Pass: 0</p>
+<p>Failed: 1</p>
+<p>Times: 0.18 m</p>
+<table style="width: 100%;">
+
+    <tr class="failed">
+        <td>main_test.dart</td>
+        <td>11 s</td>
+        <td><span class="badge"><a href="?error=main_test.dart">FAILED</a></span></td>
+    </tr>
+    <tr id="main_test.dart" class="hide">
+        <td colspan="3"><pre>No devices found yet. Checking for wireless devices...
+
+No supported devices found with name or id matching 'Android_13'.
+
+The following devices were found:
+sdk gphone64 arm64 (mobile) • emulator-5554 • android-arm64  • Android 13 (API 33) (emulator)
+macOS (desktop)             • macos         • darwin-arm64   • macOS 14.0 23A344 darwin-arm64
+Chrome (web)                • chrome        • web-javascript • Google Chrome 117.0.5938.92
+
+No devices are connected. Ensure that `flutter doctor` shows at least one connected device
+</pre>
+        </td>
+    </tr>
+</table>
+<script>
+            const params = new Proxy(new URLSearchParams(window.location.search), { get: (searchParams, prop) => searchParams.get(prop), });
+            let error = params['error'];
+            if (!!error) {
+                var element = document.getElementById(error);
+                element.classList.remove('hide');
+            }
+</script>
+
+</body>
+</html>
+            
